@@ -1,7 +1,12 @@
-# Portfolio Responsive Complete
-## [Watch it on youtube](https://youtu.be/AKNvTxWOdKw)
-### Portfolio responsive complete
-A clean and nice web portfolio for designer or developer. That includes almost everything you want to show. At first, your name, links to social networks and a great image. Then the About section displays more information about you. Then the list of Skills it offers. It also has a section where it shows some recent work. And at the bottom it has a form, and at the end with a footer.
+# My developer portfolio
 
-Don't forget to join the channel for more videos like this.
-[Bedimcode](https://www.youtube.com/c/Bedimcode)
+This portfolio is based on [Bedimcode](https://github.com/Bedimcode/portfolio-responsive-complete) portfolio. Please give they a star.
+
+You can modify, publish and do whatever with this portfolio without attribution. It is completely free and opensource.
+
+If you detect bugs or have sugerences --> issues
+## Libraries used
+Some amazing CSS and JavaScript libraries you will love. 
+
+* [boxicons](https://github.com/atisawd/boxicons)
+* [typewrite-effect](https://github.com/tameemsafi/typewriterjs) 

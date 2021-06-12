@@ -5,12 +5,22 @@
     "html-webpack-plugin": "^5.3.1",
     "style-loader": "^2.0.0",
     "typewriter-effect": "^2.17.0",
-    "webpack": "^5.38.1",
-    "webpack-cli": "^4.7.2",
     "webpack-dev-server": "^3.11.2"
   },
   "devDependencies": {
     "node-sass": "^6.0.0",
-    "sass-loader": "^12.1.0"
-  }
+    "sass-loader": "^12.1.0",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2"
+  },
+  "name": "portfolio",
+  "version": "1.0.0",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
