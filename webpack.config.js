@@ -1,4 +1,5 @@
 const htmlWebpackPlugin = require('html-webpack-plugin');
+const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
     entry: './src/assets/js/app.js',
@@ -9,7 +10,12 @@ module.exports = {
     plugins: [
         new htmlWebpackPlugin({
             template: "src/index.html"
-        })
+        }),
+        new CopyPlugin({
+            patterns: [
+                { from: 'src/assets/img', to: 'assets/img'}
+            ],
+        }),
     ],
     module: {
         rules: [

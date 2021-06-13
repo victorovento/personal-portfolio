@@ -9,7 +9,17 @@ import '../scss/styles.scss'
 */
 import 'boxicons'
 
-/*===== MENU SHOW =====*/ 
+/*
+    Assets
+*/
+// import '../img/*'
+
+/**
+ * Shows the menu
+ * 
+ * @param {*} toggleId 
+ * @param {*} navId 
+ */
 const showMenu = (toggleId, navId) =>{
     const toggle = document.getElementById(toggleId),
     nav = document.getElementById(navId)
